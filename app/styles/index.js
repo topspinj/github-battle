@@ -6,8 +6,8 @@ var styles = {
     marginTop: '25px',
   },
   box_dimensions: {
-    height: '300px',
-    width: '300px',
+    height: '100%',
+    width: '100%',
     margin: '0 auto',
   }
 }
