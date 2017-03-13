@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 
 var Main = React.createClass({
   render: function () {
@@ -10,4 +10,4 @@ var Main = React.createClass({
   }
 });
 
-export default Main;
+export default Main

@@ -1,9 +1,9 @@
-import React, { PropTypes } from 'react';
-import { Link } from 'react-router';
-import styles from '../styles';
-import UserDetailsWrapper from './UserDetailsWrapper';
-import UserDetails from './UserDetails';
-import MainContainer from './MainContainer';
+import React, { PropTypes } from 'react'
+import { Link } from 'react-router'
+import styles from '../styles'
+import UserDetailsWrapper from './UserDetailsWrapper'
+import UserDetails from './UserDetails'
+import MainContainer from './MainContainer'
 
 function ConfirmBattle (props) {
   return props.isLoading === true
@@ -37,4 +37,4 @@ ConfirmBattle.propTypes = {
   playersInfo: PropTypes.array.isRequired
 }
 
-export default ConfirmBattle;
+export default ConfirmBattle

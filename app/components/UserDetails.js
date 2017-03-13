@@ -1,6 +1,5 @@
-var React = require('react');
-var PropTypes = React.PropTypes;
-var styles = require('../styles');
+import React, { PropTypes } from 'react'
+import styles from '../styles'
 
 function UserDetails (user) {
   return (
@@ -33,4 +32,4 @@ UserDetails.propTypes = {
   })
 }
 
-module.exports = UserDetails;
+export default UserDetails

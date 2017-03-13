@@ -1,4 +1,4 @@
-var axios = require('axios');
+import axios from 'axios';
 
 var client_id = "b69b122d2e824fc91f9e";
 var secret_id = "f205cc68552a23ec8f015d41e8c81c517c93a8fa";
@@ -57,4 +57,4 @@ var helpers = {
   }
 };
 
-module.exports = helpers;
+export default helpers;
