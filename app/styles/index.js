@@ -1,15 +1,2 @@
-var styles = {
-  transparentBg: {
-    background: 'transparent'
-  },
-  space: {
-    marginTop: '25px',
-  },
-  box_dimensions: {
-    height: '100%',
-    width: '100%',
-    margin: '0 auto',
-  }
-}
-
-export default styles;
+export const transparentBg = {background: 'transparent'}
+export const space = {marginTop: '25px'}
